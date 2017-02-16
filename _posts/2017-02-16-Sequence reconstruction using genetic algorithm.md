@@ -1,7 +1,9 @@
 ---
-layout: post
 title: "Sequence reconstruction using genetic algorithm"
+layout: post
 ---
+# Sequence reconstruction using genetic algorithm
+
 ## Sequencing by hybridization
 
 Sequencing by hybridization(SBH)는 지금의 NGS가 보편화되기 이전에 많이 사용되었던 sequencing 방법이다. 한
@@ -10,7 +12,7 @@ approach 등을 통해 genome을 여러 개의 DNA fragment로 나눈 뒤 fragme
 assemble함으로써 간접적으로 genome 전체를 sequencing하게 된다. 이하는 sequencing by hybridization을
 통해 조각난 DNA fragment 하나를 어떻게 sequencing하는지에 대한 이야기이다.
 
-SBH를 간략히 설명하면 다음과 같다. 먼저 길이 l을 갖는 가능한 모든 oligonucleotide probe(총 $4^l$개)를
+SBH를 간략히 설명하면 다음과 같다. 먼저 길이 l을 갖는 가능한 모든 oligonucleotide probe(총 $$4^l$$개)를
 microarray에 심는다. 이런 oligonucleotide library를 만들기 굉장히 복잡할 것 같지만, linear number of
 steps 안에 제작이 완료된다고 한다(이 방법에 대해서도 알아보면 흥미로울듯!). 여튼 이렇게 oligonucleotide library를
 만들게 되면 이제 우리는 DNA fragment 안의 길이 l인 subsequence들을 감지할 수 있게 된다. DNA fragment를
@@ -489,3 +491,5 @@ print("Best solution with %d oligonucelotides results in %s (Optimal %d)" % (bes
     MAX_LENGTH : 109, SPECTRUM SIZE: 100
     Best solution with 80 oligonucelotides results in CCCTGAAGTTGGGACAAAATTGAACAAACAAGATGAGTTTGGTGCTTTGGAAAGTGTGAAAGCTGCTAGTGAACTATATTCTCCTTTATCAGGAGAAGTAACTGAAAT (Optimal 80)
     
+
+길이 109의 sequence를 잘 복원해냈다! 다음에는 이 알고리즘을 가지고 실제 sequence를 복원하는
