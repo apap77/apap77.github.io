@@ -1,8 +1,8 @@
 ---
 title: "Sequence reconstruction using genetic algorithm"
 layout: post
+
 ---
-# Sequence reconstruction using genetic algorithm
 
 ## Sequencing by hybridization
 
@@ -492,4 +492,4 @@ print("Best solution with %d oligonucelotides results in %s (Optimal %d)" % (bes
     Best solution with 80 oligonucelotides results in CCCTGAAGTTGGGACAAAATTGAACAAACAAGATGAGTTTGGTGCTTTGGAAAGTGTGAAAGCTGCTAGTGAACTATATTCTCCTTTATCAGGAGAAGTAACTGAAAT (Optimal 80)
     
 
-길이 109의 sequence를 잘 복원해냈다! 다음에는 이 알고리즘을 가지고 실제 sequence를 복원하는
+길이 109의 sequence를 잘 복원해냈다! 다음에는 이 알고리즘을 가지고 실제 sequence를 복원하는 실험을 해 볼 것이다.
