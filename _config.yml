@@ -1,0 +1,13 @@
+title: Notes
+tagline: 'Notes'
+description: 'Notes for bioinformatics and machine learning.'
+url: http://andhyde.com
+version: 1.1.1
+author:
+  name: 'DH Lee'
+  email:  'apap950419@gmail.com'
+markdown: kramdown
+permalink: pretty
+# highlighter: pygments
+paginate: 5
+gems: [jekyll-paginate]
