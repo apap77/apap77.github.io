@@ -10,4 +10,6 @@ markdown: kramdown
 permalink: pretty
 # highlighter: pygments
 paginate: 5
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
