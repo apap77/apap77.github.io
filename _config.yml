@@ -13,3 +13,4 @@ paginate: 5
 gems:
   - jekyll-paginate
   - jekyll-seo-tag
+excerpt_separator: ""

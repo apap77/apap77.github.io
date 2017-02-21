@@ -18,4 +18,5 @@ def kmers(k):
 for kmer in kmers(k=2):
     print(kmer, end=' ')
 # output : AA AC AG AT CA CC CG CT GA GC GG GT TA TC TG TT
+
 {% endhighlight %}
