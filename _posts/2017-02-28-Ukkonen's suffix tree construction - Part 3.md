@@ -136,9 +136,9 @@ String **S = abcabxabcd**를 예로 들어서 단계적으로 suffix tree를 만
   4\. 코드 구현 시, 우리는 string **S**의 모든 문자를 하나씩 순회할 것이다. **i**번째 문자에 대한 루프는 phase **i**를 처리할 것이다. 각 phase 내에서 루프는 1번 또는 그 이상 반복되는데, 이것은 얼마나 많은 extension이 수행되어야 하는지에 따라 달려 있다(phase **i+1**에서 명시적으로 **i+1**번의 루프를 돌지는 않아도 됨을 명심하자. 우리에게는 Trick 3가 있다!). 우리는 변수 **remainingSuffixCount**를 사용하여 앞으로 얼마나 많은 extension이 명시적으로 수행되어야 하는지 기억해둘 것이다. 또한, 각 phase의 끝에 도달 시, 만약 **remainingSuffixCount**가 **0**이라면 이번 phase에서는 모든 suffix들이 tree에 집어넣어졌고 tree 내에 명시적으로 존재한다는 의미이다. 만약 **remainingSuffixCount**가 0이 아니라면 그만큼의 suffix들이 명시적으로 tree에 더해지지 않았다는 것(Rule 3이 적용되어 phase가 조기에 종료되었기 때문)이다. 이러한 암묵적인 suffix들은 추후에 unique한 문자가 나타날 때 tree에 명시적으로 나타나게 될 것이다. 
 
 ### References
-[http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-2/][1]
+[http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-3/][1]
 
-[1]: http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-1/
+[1]: http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-3/
 [2]: http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-2/
 [Part1]: ../Ukkonen's-suffix-tree-construction-Part-1
 [Part2]: ../Ukkonen's-suffix-tree-construction-Part-2

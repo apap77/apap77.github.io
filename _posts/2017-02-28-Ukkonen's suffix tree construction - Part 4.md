@@ -138,7 +138,7 @@ Phase 6은 6개의 모든 extension을 완료했음에 주목하라(왜냐하면
 ### References
 [http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-4/][1]
 
-[1]: http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-1/
+[1]: http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-4/
 [2]: http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-2/
 [Part1]: ../Ukkonen's-suffix-tree-construction-Part-1
 [Part2]: ../Ukkonen's-suffix-tree-construction-Part-2

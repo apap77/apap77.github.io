@@ -165,7 +165,7 @@ Phase 11에서는 S(abcabxabcd$)의 10번째 문자 '$'를 읽는다.
 ### References
 [http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-5/][1]
 
-[1]: http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-1/
+[1]: http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-5/
 [2]: http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-2/
 [Part1]: ../Ukkonen's-suffix-tree-construction-Part-1
 [Part2]: ../Ukkonen's-suffix-tree-construction-Part-2
